@@ -12,5 +12,16 @@ To create a working build, you will need to download the following and add them 
  
 PocketTool is licensed under the Eclipse Public License (http://www.eclipse.org/legal/epl-v10.html)
  
- 
+
+
+ *Jellybean compatibily branch*
+ TODO:
+ * Remove dependencies that rely upon the old Android package/application system
+ * Detect platform version (Jellybean)
+ * Inform user of entering Jellybean compatibility mode
+ * Include a default custom texture pack to accomodate not being able to pull assets from apk files
+ * Optimize to use internal storage if necessary
+ * Optimize the "build" system; legacy code has to go!
+ * Add tablet/land scape layouts
+
  
